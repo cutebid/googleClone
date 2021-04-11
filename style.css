@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 13%;
+    margin-left: auto;
+    padding: 1.2em;
+}
+
+nav a {
+       color: black;
+       text-decoration: none;
+       font-size: 14px;
+}
+nav img {
+        height: 15px;
+}
+main {
+      text-align: center;
+      width: 50%;
+      margin: 7em auto;
+      height: 360px;
+}
+main img {
+    height: 75px;
+}
+main p{
+       margin-top: 15px;
+       font-size: 12px;
+       padding: 10px;
+}
+
+input  {
+       width: 80%;
+       margin-top: 0.7em;
+       padding: 1em;
+       border-radius: 20px;
+       border: 1px solid lightgray;
+       }
+
+#google_search {
+            position: absolute;
+            height: 13px;
+            top: 270px;
+            left: 470px;
+            background-color: white;
+}
+#google_voice {
+           position: relative;
+           height: 20px;
+           right: 35px;
+           top: 5px;
+
+}
+.btns_container {
+                margin-top: 1em;
+}
+.btns_container button {
+    padding: 1em;
+    border: none;
+    outline: none;
+    background-color:  rgb(250, 246, 246);
+    border-radius: 3px;
+    font-size: 10px;
+}
+button:hover {
+      border: 1px solid lightgray;
+      border-radius: 5px;
+}
+footer {
+       background-color: rgb(250, 246, 246);
+       font-size: 12px;
+}
+.footer_top {
+             border: none;
+             padding: 1em;
+             border: none;
+}
+.footer_bottom {
+                display: flex;
+                justify-content: space-between;
+                padding: 1em;
+                border-top: 1px solid rgb(180, 176, 176);
+}
+.footer_bottom a {
+       text-decoration: none;
+       color: black;
+}
+.footer_bottom img {
+         padding: 0 3px;
+}
+ .left a {
+       margin-right: 1em;
+       text-decoration: none;
+}
+.right a {
+        margin-right: 1em;
+        
+} 
+a:hover {
+    text-decoration: underline;
+}
+span a {
+     text-decoration: none;
+     margin-left: 7px;
+     color: #2c22be;
+}
